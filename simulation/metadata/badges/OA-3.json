@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "OA-3",
+  "name": "Quiz",
+  "description": "Unconstrained optimization, asymmetric penalties, hand-computed LM iterates.",
+  "course": {"code": "OA", "name": "Optimizacao e Algoritmos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/OA222/2025-2026/1-semestre"},
+  "assessment": "Quiz MAP45",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 6},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 6},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 3}
+  ]
+}

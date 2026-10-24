@@ -1,0 +1,41 @@
+{
+  "type": "project",
+  "name": "Autonomous electric vehicle charging depot",
+  "thirdParty": "TP3",
+  "description": "A team forms when each slot is taken by a student who holds every node of that slot. The third party selects at most 1 team.",
+  "maxTeams": 1,
+  "slots": [
+    {
+      "slot": 1,
+      "role": "Data and learning",
+      "nodes": [
+        {"id": 14, "name": "Deep Learning Specialist", "tier": "Specialist"},
+        {"id": 15, "name": "Data Science Specialist", "tier": "Specialist"}
+      ]
+    },
+    {
+      "slot": 2,
+      "role": "Energy systems",
+      "nodes": [
+        {"id": 18, "name": "Energy Optimization Specialist", "tier": "Specialist"},
+        {"id": 20, "name": "Energy Infrastructure Specialist", "tier": "Specialist"}
+      ]
+    },
+    {
+      "slot": 3,
+      "role": "Vehicle perception",
+      "nodes": [
+        {"id": 12, "name": "Perception Specialist", "tier": "Specialist"},
+        {"id": 13, "name": "Electric Vehicle Specialist", "tier": "Specialist"}
+      ]
+    },
+    {
+      "slot": 4,
+      "role": "Control and automation",
+      "nodes": [
+        {"id": 16, "name": "Engineering ML Specialist", "tier": "Specialist"},
+        {"id": 17, "name": "Control Systems Specialist", "tier": "Specialist"}
+      ]
+    }
+  ]
+}

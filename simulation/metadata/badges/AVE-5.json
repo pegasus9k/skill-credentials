@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "AVE-5",
+  "name": "Theorist",
+  "description": "Field-weakening flux estimation, slip and torque-speed computation, FOC current/voltage calculation, dq model manipulation, battery pack pre-design, vehicle traction energy.",
+  "course": {"code": "AVE", "name": "Acionamentos e Veiculos Electricos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/AVE/2022-2023/1-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 9},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 9},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 7},
+    {"skillType": "REN", "label": "Wind, solar PV, storage and batteries", "points": 5}
+  ]
+}

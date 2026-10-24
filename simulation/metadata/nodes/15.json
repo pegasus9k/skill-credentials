@@ -1,0 +1,19 @@
+{
+  "type": "node",
+  "name": "Data Science Specialist",
+  "tier": "Specialist",
+  "description": "Specialist node. Requires Machine Learning Fundamentals and Software and Data Fundamentals.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 2, "name": "Machine Learning Fundamentals", "tier": "Fundamentals"},
+      {"id": 3, "name": "Software and Data Fundamentals", "tier": "Fundamentals"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 11},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 13},
+    {"skillType": "CODE", "label": "Code implementation", "points": 11}
+  ],
+  "versionOf": 0
+}

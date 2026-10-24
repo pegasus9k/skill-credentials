@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "OA-1",
+  "name": "Robust Classifier",
+  "description": "Adversarial-robust classification (MNIST), convexity proofs, CVX numerical implementation.",
+  "course": {"code": "OA", "name": "Optimizacao e Algoritmos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/OA222/2025-2026/1-semestre"},
+  "assessment": "Project, part 1",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 2},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 1}
+  ]
+}

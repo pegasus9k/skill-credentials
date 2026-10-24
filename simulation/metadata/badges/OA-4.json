@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "OA-4",
+  "name": "Theorist",
+  "description": "KKT conditions, strong convexity proofs, dynamical systems, energy disaggregation.",
+  "course": {"code": "OA", "name": "Optimizacao e Algoritmos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/OA222/2025-2026/1-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 13},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 10},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 7}
+  ]
+}

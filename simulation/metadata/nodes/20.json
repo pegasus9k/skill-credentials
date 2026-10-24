@@ -1,0 +1,19 @@
+{
+  "type": "node",
+  "name": "Energy Infrastructure Specialist",
+  "tier": "Specialist",
+  "description": "Specialist node. Requires Power Grid Fundamentals and Renewable Energy Fundamentals.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 5, "name": "Power Grid Fundamentals", "tier": "Fundamentals"},
+      {"id": 10, "name": "Renewable Energy Fundamentals", "tier": "Fundamentals"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 11},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 10},
+    {"skillType": "REN", "label": "Wind, solar PV, storage and batteries", "points": 12}
+  ],
+  "versionOf": 0
+}

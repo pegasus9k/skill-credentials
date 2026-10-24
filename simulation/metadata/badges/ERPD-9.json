@@ -1,0 +1,13 @@
+{
+  "type": "badge",
+  "specId": "ERPD-9",
+  "name": "Quiz 5",
+  "description": "Wind generators.",
+  "course": {"code": "ERPD", "name": "Energias Renovaveis e Producao Descentralizada", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ERPD236/2024-2025/2-semestre"},
+  "assessment": "Weekly quiz",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 3},
+    {"skillType": "REN", "label": "Wind, solar PV, storage and batteries", "points": 2}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "MAPI-4",
+  "name": "Process Modeler",
+  "description": "Talk documenting an industrial process: I/O characterization, state machine or Petri net construction, property analysis.",
+  "course": {"code": "MAPI", "name": "Modelacao e Automacao de Processos Industriais", "ects": 6, "page": "https://web.tecnico.ulisboa.pt/~ist13495/courses/mapi24d/mapi2425.html"},
+  "assessment": "Presentation",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 1}
+  ]
+}

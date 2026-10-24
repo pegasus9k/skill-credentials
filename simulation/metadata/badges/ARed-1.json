@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "ARed-1",
+  "name": "Power Flow",
+  "description": "MATLAB power flow, pi-model, Y-matrix construction, Gauss-Jacobi solver, power flow fundamentals, Gauss recurrence derivation, network component classification.",
+  "course": {"code": "ARed", "name": "Analise de Redes", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ARed112/2025-2026/1-semestre"},
+  "assessment": "TEST 1, lab test 1 and MAP test 1",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 2},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 2}
+  ]
+}

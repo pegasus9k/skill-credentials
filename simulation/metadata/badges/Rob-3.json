@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "Rob-3",
+  "name": "Robotics Paper",
+  "description": "Scientific-format paper on a robotics topic spanning kinematics, dynamics, control, sensing and fusion.",
+  "course": {"code": "Rob", "name": "Robotica", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/Rob112/2025-2026/1-semestre"},
+  "assessment": "Project paper",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 5},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 5},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 4},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 4}
+  ]
+}

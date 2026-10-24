@@ -1,0 +1,23 @@
+{
+  "type": "path",
+  "name": "Smart energy systems",
+  "thirdParty": "TP1",
+  "description": "The path checks the node marked 'checked'. Holding it implies every node marked 'all' and every node of one option.",
+  "nodes": {
+    "Architect": [
+      {"id": 22, "name": "Smart Energy Architect", "required": "checked"}
+    ],
+    "Specialist": [
+      {"id": 20, "name": "Energy Infrastructure Specialist", "required": "all"},
+      {"id": 18, "name": "Energy Optimization Specialist", "required": "oneOf", "option": 1},
+      {"id": 19, "name": "Grid Analytics Specialist", "required": "oneOf", "option": 2}
+    ],
+    "Fundamentals": [
+      {"id": 5, "name": "Power Grid Fundamentals", "required": "all"},
+      {"id": 10, "name": "Renewable Energy Fundamentals", "required": "all"},
+      {"id": 4, "name": "Optimization Fundamentals", "required": "oneOf", "option": 1},
+      {"id": 9, "name": "Electrical Power Fundamentals", "required": "oneOf", "option": 1},
+      {"id": 3, "name": "Software and Data Fundamentals", "required": "oneOf", "option": 2}
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "SAut-4",
+  "name": "Theorist",
+  "description": "Bayes filter, EKF/MCL derivations, occupancy-grid and SLAM formulations, MDP policies and RL, distributed sensor fusion, autonomy architectures.",
+  "course": {"code": "SAut", "name": "Sistemas Autonomos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/SAut23610/2025-2026/2-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 7},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 4},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 2},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 2}
+  ]
+}

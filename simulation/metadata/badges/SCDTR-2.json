@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "SCDTR-2",
+  "name": "Distributed Controller",
+  "description": "Cooperative control on the CAN-BUS network: consensus and dual-decomposition energy minimization under comfort constraints, synchronization protocols, performance benchmarking.",
+  "course": {"code": "SCDTR", "name": "Sistemas de Controlo Distribuido em Tempo Real", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/SCDTR3610/2025-2026/2-semestre"},
+  "assessment": "Stage 2, group report and demo",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 6},
+    {"skillType": "CODE", "label": "Code implementation", "points": 5},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 5},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2}
+  ]
+}

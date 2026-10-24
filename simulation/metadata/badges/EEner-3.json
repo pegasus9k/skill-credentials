@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "EEner-3",
+  "name": "Rectifier Analyst",
+  "description": "Diode and thyristor rectifier analysis: pulse index, average/RMS currents, reverse voltage, input AC quantities, front-end transformers, series/parallel associations and HVDC, rectifier control.",
+  "course": {"code": "EEner", "name": "Electronica de Potencia para Energia", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/EEner11/2024-2025/1-semestre"},
+  "assessment": "MAP45",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 9},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 7},
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 4},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 4}
+  ]
+}

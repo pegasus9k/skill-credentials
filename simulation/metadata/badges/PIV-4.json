@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PIV-4",
+  "name": "Theorist",
+  "description": "Stereo geometry, fundamental matrices, Rodrigues rotation, CNN architectures, optical flow.",
+  "course": {"code": "PIV", "name": "Processamento de Imagem e Visao", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PIV/2025-2026/1-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 11},
+    {"skillType": "DL", "label": "Neural architectures, backpropagation, CNNs and RNNs", "points": 8},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 6},
+    {"skillType": "CODE", "label": "Code implementation", "points": 5}
+  ]
+}

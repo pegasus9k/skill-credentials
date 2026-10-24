@@ -1,0 +1,32 @@
+{
+  "source": "thresholds.py",
+  "inputs": ["graphStructure.json", "courses.json", "archetypes.json"],
+  "definedInSeason": 1,
+  "derivation": {"margin": 0.7, "tierWeights": {"Fundamentals": 1.0, "Specialist": 1.5, "Architect": 2.0}, "capPerType": 20, "capMATH": 10},
+  "nodes": [
+    {"id": 1, "name": "Control and Signals Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"CTR": 5, "SIG": 7}},
+    {"id": 2, "name": "Machine Learning Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"ML": 6, "DATA": 9}},
+    {"id": 3, "name": "Software and Data Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"CODE": 7, "DATA": 9}},
+    {"id": 4, "name": "Optimization Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"OPT": 3, "MATH": 10}},
+    {"id": 5, "name": "Power Grid Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"GRID": 7, "PWR": 7}},
+    {"id": 6, "name": "Sensor Data Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"DATA": 20, "SIG": 7}},
+    {"id": 7, "name": "Simulation Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"SIM": 8, "CODE": 20}},
+    {"id": 8, "name": "Electromechanics Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"CTR": 5, "PWR": 7}},
+    {"id": 9, "name": "Electrical Power Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"PWR": 9, "MATH": 10}},
+    {"id": 10, "name": "Renewable Energy Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"REN": 8, "THERMO": 14}},
+    {"id": 11, "name": "Deep Learning Fundamentals", "tier": "Fundamentals", "prerequisiteGroups": [], "threshold": {"DL": 10, "CODE": 7}},
+    {"id": 12, "name": "Perception Specialist", "tier": "Specialist", "prerequisiteGroups": [[1, 6]], "threshold": {"CTR": 7, "SIG": 11, "DATA": 20}},
+    {"id": 13, "name": "Electric Vehicle Specialist", "tier": "Specialist", "prerequisiteGroups": [[1, 8]], "threshold": {"CTR": 7, "PWR": 10}},
+    {"id": 14, "name": "Deep Learning Specialist", "tier": "Specialist", "prerequisiteGroups": [[2, 11]], "threshold": {"DL": 16, "ML": 11, "CODE": 11}},
+    {"id": 15, "name": "Data Science Specialist", "tier": "Specialist", "prerequisiteGroups": [[2, 3]], "threshold": {"ML": 11, "DATA": 13, "CODE": 11}},
+    {"id": 16, "name": "Engineering ML Specialist", "tier": "Specialist", "prerequisiteGroups": [[2, 4]], "threshold": {"ML": 9, "OPT": 6, "DATA": 20}},
+    {"id": 17, "name": "Control Systems Specialist", "tier": "Specialist", "prerequisiteGroups": [[1, 7]], "threshold": {"CTR": 20, "SIM": 13, "OPT": 6}},
+    {"id": 18, "name": "Energy Optimization Specialist", "tier": "Specialist", "prerequisiteGroups": [[4, 9]], "threshold": {"OPT": 5, "PWR": 14}},
+    {"id": 19, "name": "Grid Analytics Specialist", "tier": "Specialist", "prerequisiteGroups": [[3, 5]], "threshold": {"GRID": 11, "DATA": 20, "ML": 20}},
+    {"id": 20, "name": "Energy Infrastructure Specialist", "tier": "Specialist", "prerequisiteGroups": [[5, 10]], "threshold": {"GRID": 11, "PWR": 10, "REN": 12}},
+    {"id": 21, "name": "Autonomous Mobility Architect", "tier": "Architect", "prerequisiteGroups": [[12, 13], [13, 14]], "threshold": {"CTR": 10, "PWR": 14, "CODE": 20}},
+    {"id": 22, "name": "Smart Energy Architect", "tier": "Architect", "prerequisiteGroups": [[18, 20], [19, 20]], "threshold": {"PWR": 14, "GRID": 15, "OPT": 7}},
+    {"id": 23, "name": "Intelligent Automation Architect", "tier": "Architect", "prerequisiteGroups": [[16, 17], [16, 18]], "threshold": {"CTR": 20, "OPT": 8}},
+    {"id": 24, "name": "Applied ML Architect", "tier": "Architect", "prerequisiteGroups": [[14, 15], [15, 16]], "threshold": {"ML": 14, "DATA": 18, "CODE": 15}}
+  ]
+}

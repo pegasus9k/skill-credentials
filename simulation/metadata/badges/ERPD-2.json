@@ -1,0 +1,13 @@
+{
+  "type": "badge",
+  "specId": "ERPD-2",
+  "name": "Problem 1",
+  "description": "Power system context.",
+  "course": {"code": "ERPD", "name": "Energias Renovaveis e Producao Descentralizada", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ERPD236/2024-2025/2-semestre"},
+  "assessment": "Weekly problem",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2}
+  ]
+}

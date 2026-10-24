@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "MEle-2",
+  "name": "DC Machine Lab",
+  "description": "Motor-generator group testing: no-load loss segregation, loss-to-heat power balance, efficiency versus mechanical power.",
+  "course": {"code": "MEle", "name": "Maquinas Electricas", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/MEle11/2024-2025/1-semestre"},
+  "assessment": "T2 report",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 3},
+    {"skillType": "THERMO", "label": "Thermal cycles, steam and gas properties, heat transfer", "points": 2},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2}
+  ]
+}

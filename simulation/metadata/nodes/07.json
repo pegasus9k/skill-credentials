@@ -1,0 +1,13 @@
+{
+  "type": "node",
+  "name": "Simulation Fundamentals",
+  "tier": "Fundamentals",
+  "description": "Fundamentals node, with no prerequisites.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [],
+  "threshold": [
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 8},
+    {"skillType": "CODE", "label": "Code implementation", "points": 20}
+  ],
+  "versionOf": 0
+}

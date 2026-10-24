@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "MEle-3",
+  "name": "Induction Machine Lab",
+  "description": "Three-phase induction machine under scalar V/f command, generator operation grid-connected and isolated, load registration across regimes.",
+  "course": {"code": "MEle", "name": "Maquinas Electricas", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/MEle11/2024-2025/1-semestre"},
+  "assessment": "T3 report, parts A and B",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 3},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 2},
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 2},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 1}
+  ]
+}

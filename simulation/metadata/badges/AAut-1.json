@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "AAut-1",
+  "name": "Regression I",
+  "description": "Linear regression on synthetic data, NumPy matrix implementation, SSE cost.",
+  "course": {"code": "AAut", "name": "Aprendizagem Automatica", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/AAut112/2025-2026/1-semestre"},
+  "assessment": "Project 1, deliverable 1",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 1},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 1},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 2}
+  ]
+}

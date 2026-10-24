@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PBDat-3",
+  "name": "Defense",
+  "description": "Individual pitch and technical discussion defending methodology, algorithm choices and performance analysis.",
+  "course": {"code": "PBDat", "name": "Processamento de Big Data", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PBDat/2021-2022/2-semestre"},
+  "assessment": "Pitch and discussion",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 5},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3},
+    {"skillType": "CODE", "label": "Code implementation", "points": 2}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "MAPI-5",
+  "name": "Theorist",
+  "description": "ST code analysis with scan-cycle timing, Petri net reachability and invariants, supervisor synthesis, stochastic PNs, Markov chain steady-state probabilities.",
+  "course": {"code": "MAPI", "name": "Modelacao e Automacao de Processos Industriais", "ects": 6, "page": "https://web.tecnico.ulisboa.pt/~ist13495/courses/mapi24d/mapi2425.html"},
+  "assessment": "Final exam",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 10},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 10},
+    {"skillType": "CODE", "label": "Code implementation", "points": 5},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2}
+  ]
+}

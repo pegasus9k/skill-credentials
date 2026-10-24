@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "EEner-2",
+  "name": "Converter Labs",
+  "description": "Three-phase inverter with SPWM, two- and three-level four-quadrant IGBT chopper with PWM drive, load-current waveform analysis on inductive loads.",
+  "course": {"code": "EEner", "name": "Electronica de Potencia para Energia", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/EEner11/2024-2025/1-semestre"},
+  "assessment": "LAB 2",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 4},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 3},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 1},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 1}
+  ]
+}

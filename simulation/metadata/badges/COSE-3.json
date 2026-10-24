@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "COSE-3",
+  "name": "Theorist",
+  "description": "Full-syllabus assessment: interconnected-network control and stability, state estimation, dispatch and OPF optimality conditions, commitment and resource scheduling.",
+  "course": {"code": "COSE", "name": "Controlo e Optimizacao de Sistemas de Energia", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/COSE3610/2025-2026/2-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 8},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 8},
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 8},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 6}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "node",
+  "name": "Renewable Energy Fundamentals",
+  "tier": "Fundamentals",
+  "description": "Fundamentals node, with no prerequisites.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [],
+  "threshold": [
+    {"skillType": "REN", "label": "Wind, solar PV, storage and batteries", "points": 8},
+    {"skillType": "THERMO", "label": "Thermal cycles, steam and gas properties, heat transfer", "points": 14}
+  ],
+  "versionOf": 0
+}

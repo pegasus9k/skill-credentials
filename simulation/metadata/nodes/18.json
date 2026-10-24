@@ -1,0 +1,18 @@
+{
+  "type": "node",
+  "name": "Energy Optimization Specialist",
+  "tier": "Specialist",
+  "description": "Specialist node. Requires Optimization Fundamentals and Electrical Power Fundamentals.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 4, "name": "Optimization Fundamentals", "tier": "Fundamentals"},
+      {"id": 9, "name": "Electrical Power Fundamentals", "tier": "Fundamentals"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 5},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 14}
+  ],
+  "versionOf": 0
+}

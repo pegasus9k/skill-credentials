@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "AVE-4",
+  "name": "Vector Control Design",
+  "description": "Park dq dynamic model, synchronous reference frame, FOC implementation with flux observer, PI gain tuning against V/f baseline.",
+  "course": {"code": "AVE", "name": "Acionamentos e Veiculos Electricos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/AVE/2022-2023/1-semestre"},
+  "assessment": "Report VIENA 3",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 3},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 2},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 1}
+  ]
+}

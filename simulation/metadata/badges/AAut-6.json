@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "AAut-6",
+  "name": "Theorist",
+  "description": "Full syllabus theory: SVMs, Bayes classifiers, decision trees, neural networks, optimization.",
+  "course": {"code": "AAut", "name": "Aprendizagem Automatica", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/AAut112/2025-2026/1-semestre"},
+  "assessment": "Written exam",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 12},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 6},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 6},
+    {"skillType": "DL", "label": "Neural architectures, backpropagation, CNNs and RNNs", "points": 6}
+  ]
+}

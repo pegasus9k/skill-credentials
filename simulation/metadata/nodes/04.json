@@ -1,0 +1,13 @@
+{
+  "type": "node",
+  "name": "Optimization Fundamentals",
+  "tier": "Fundamentals",
+  "description": "Fundamentals node, with no prerequisites.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [],
+  "threshold": [
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 10}
+  ],
+  "versionOf": 0
+}

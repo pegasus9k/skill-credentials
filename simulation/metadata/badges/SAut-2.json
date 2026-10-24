@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "SAut-2",
+  "name": "Robot Project Report",
+  "description": "ROS 2 implementation of EKF/MCL localization, occupancy-grid mapping, SLAM, or MDP/RL on real robots, rosbag workflow, multi-run evaluation against ground truth.",
+  "course": {"code": "SAut", "name": "Sistemas Autonomos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/SAut23610/2025-2026/2-semestre"},
+  "assessment": "Report and code, 6-page IEEE paper",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 4},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 3},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 3},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 3}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "EEner-4",
+  "name": "Converter Theorist",
+  "description": "DC-DC buck/boost in CCM/DCM, 2Q/4Q choppers, single- and three-phase inverters, SPWM, unity-power-factor rectifier, converter sizing for renewable applications.",
+  "course": {"code": "EEner", "name": "Electronica de Potencia para Energia", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/EEner11/2024-2025/1-semestre"},
+  "assessment": "Exam45, second test",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 7},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 4},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 4},
+    {"skillType": "REN", "label": "Wind, solar PV, storage and batteries", "points": 3}
+  ]
+}

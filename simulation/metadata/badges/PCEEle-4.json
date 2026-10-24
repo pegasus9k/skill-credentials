@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "PCEEle-4",
+  "name": "Hydroelectric",
+  "description": "Turbine selection (Pelton, Francis, Kaplan), specific speed, head loss, group sizing.",
+  "course": {"code": "PCEEle", "name": "Producao e Consumo de Energia Electrica", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PCEEle112/2025-2026/1-semestre"},
+  "assessment": "MAP4",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "REN", "label": "Wind, solar PV, storage and batteries", "points": 6},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 5},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 1}
+  ]
+}

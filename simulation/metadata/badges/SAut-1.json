@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "SAut-1",
+  "name": "Progress Milestones",
+  "description": "Weekly incremental demonstrations: Python micro-simulator from own motion/measurement models, synthetic-data validation, partial implementations.",
+  "course": {"code": "SAut", "name": "Sistemas Autonomos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/SAut23610/2025-2026/2-semestre"},
+  "assessment": "5 weekly progress presentations, one grade",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 4},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 4},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 3},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2}
+  ]
+}

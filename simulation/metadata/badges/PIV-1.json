@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PIV-1",
+  "name": "3D Reconstruction",
+  "description": "3D point cloud from depth, camera matrix computation, SIFT matching, relative pose estimation.",
+  "course": {"code": "PIV", "name": "Processamento de Imagem e Visao", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PIV/2025-2026/1-semestre"},
+  "assessment": "Labwork 1",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 4},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 1},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PBDat-1",
+  "name": "Pipeline Code",
+  "description": "Data pipeline on pose/embedding data: EDA, missing keypoints and outliers, GLRM imputation, PCA/sketching, clustering with outlier identification, alternating-minimization/SGD fitting.",
+  "course": {"code": "PBDat", "name": "Processamento de Big Data", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PBDat/2021-2022/2-semestre"},
+  "assessment": "Project code",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 5},
+    {"skillType": "CODE", "label": "Code implementation", "points": 4},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 2},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 2}
+  ]
+}

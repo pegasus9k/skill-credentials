@@ -1,0 +1,208 @@
+/* Design tokens, scoped under .platform so they don't leak into other pages.
+ * Default palette here is "parchment" (cream/beige).
+ */
+.platform {
+  /* Palette: Parchment */
+  --ink-0: #f4eee0;
+  --ink-1: #efe7d3;
+  --ink-2: #e8dfc6;
+  --ink-3: #dfd3b4;
+  --rule: #c9ba97;
+  --rule-soft: #d8cba8;
+  --fg: #1c1810;
+  --fg-dim: #3a3426;
+  --fg-mute: #6b6148;
+  --fg-faint: #8f8567;
+
+  --amber: oklch(0.55 0.15 55);
+  --cyan: oklch(0.52 0.12 220);
+  --magenta: oklch(0.52 0.14 350);
+  --green: oklch(0.52 0.13 150);
+  --violet: oklch(0.5 0.14 285);
+
+  --accent: var(--amber);
+  --accent-2: var(--cyan);
+  --accent-3: var(--magenta);
+  --accent-4: var(--green);
+
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-lg: 14px;
+  --r-xl: 22px;
+  --e-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  background: var(--ink-1);
+  color: var(--fg);
+  font-family: var(--font-ui, ui-sans-serif, system-ui, sans-serif);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.platform .serif {
+  font-family: var(--font-display, "Times New Roman", serif);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+.platform .mono {
+  font-family: var(--font-mono, ui-monospace, "SF Mono", Menlo, monospace);
+  font-feature-settings: "ss01", "cv01";
+}
+.platform .mono-sm {
+  font-family: var(--font-mono, ui-monospace, "SF Mono", Menlo, monospace);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.platform .grid-bg {
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--rule) 35%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--rule) 35%, transparent) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.platform .hairline {
+  border: 1px solid var(--rule);
+}
+.platform .hairline-b {
+  border-bottom: 1px solid var(--rule);
+}
+.platform .hairline-t {
+  border-top: 1px solid var(--rule);
+}
+.platform .hairline-r {
+  border-right: 1px solid var(--rule);
+}
+.platform .hairline-l {
+  border-left: 1px solid var(--rule);
+}
+
+.platform .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 7px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  background: color-mix(in srgb, var(--ink-2) 60%, transparent);
+  white-space: nowrap;
+}
+
+.platform .chip-accent {
+  border-color: color-mix(in srgb, var(--accent) 50%, var(--rule));
+  color: var(--accent);
+}
+
+/* Reset SE-2's default DaisyUI button shadow for platform buttons */
+.platform .k-btn {
+  font-family: var(--font-ui, system-ui, sans-serif);
+  font-size: 13px;
+  color: var(--fg);
+  background: transparent;
+  border: 1px solid var(--rule);
+  padding: 9px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition:
+    border-color 0.15s var(--e-out),
+    background 0.15s var(--e-out),
+    color 0.15s var(--e-out);
+  letter-spacing: 0.01em;
+  box-shadow: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.platform .k-btn:hover {
+  border-color: var(--fg-mute);
+  background: color-mix(in srgb, var(--fg) 5%, transparent);
+}
+.platform .k-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.platform .k-btn-primary {
+  background: var(--fg);
+  color: var(--ink-1);
+  border-color: var(--fg);
+}
+.platform .k-btn-primary:hover {
+  background: color-mix(in srgb, var(--fg) 88%, var(--accent));
+  border-color: color-mix(in srgb, var(--fg) 88%, var(--accent));
+  color: var(--ink-1);
+}
+.platform .k-btn-ghost {
+  border-color: transparent;
+  color: var(--fg-dim);
+}
+.platform .k-btn-ghost:hover {
+  color: var(--fg);
+  background: var(--ink-2);
+}
+
+.platform .k-input {
+  background: var(--ink-2);
+  border: 1px solid var(--rule);
+  color: var(--fg);
+  padding: 9px 11px;
+  border-radius: 2px;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 12.5px;
+  letter-spacing: 0.02em;
+  outline: none;
+  width: 100%;
+}
+.platform .k-input:focus {
+  border-color: var(--fg-mute);
+}
+
+.platform input[type="range"] {
+  accent-color: var(--accent);
+}
+
+/* Top bar pill — "SEASON OPEN" / "SEASON FROZEN" indicator */
+.platform .pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.platform .pill-open {
+  color: var(--green);
+  border-color: color-mix(in srgb, var(--green) 50%, var(--rule));
+}
+.platform .pill-frozen {
+  color: var(--cyan);
+  border-color: color-mix(in srgb, var(--cyan) 50%, var(--rule));
+}
+.platform .pill-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+@keyframes platform-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.78);
+  }
+}

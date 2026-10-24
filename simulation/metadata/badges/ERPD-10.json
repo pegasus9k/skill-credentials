@@ -1,0 +1,13 @@
+{
+  "type": "badge",
+  "specId": "ERPD-10",
+  "name": "Problem 5",
+  "description": "Synchronous machine, loss-to-heat balance.",
+  "course": {"code": "ERPD", "name": "Energias Renovaveis e Producao Descentralizada", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ERPD236/2024-2025/2-semestre"},
+  "assessment": "Weekly problem",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 3},
+    {"skillType": "THERMO", "label": "Thermal cycles, steam and gas properties, heat transfer", "points": 2}
+  ]
+}

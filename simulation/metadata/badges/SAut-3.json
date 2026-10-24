@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "SAut-3",
+  "name": "Project Defense",
+  "description": "Defense of problem formalization, algorithm choice and experimental analysis, with the soft-skills component.",
+  "course": {"code": "SAut", "name": "Sistemas Autonomos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/SAut23610/2025-2026/2-semestre"},
+  "assessment": "Final presentation and discussion, with soft skills",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 6},
+    {"skillType": "CODE", "label": "Code implementation", "points": 5},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 4},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 4}
+  ]
+}

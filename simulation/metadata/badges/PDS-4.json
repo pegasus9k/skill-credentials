@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "PDS-4",
+  "name": "Theorist",
+  "description": "LTI analysis, frequency response, Z-transform ROC, stability/causality, circular convolution, DFT and FFT, least squares, MLE, Cramer-Rao bound.",
+  "course": {"code": "PDS", "name": "Processamento Digital de Sinais", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PDS36/2024-2025/2-semestre"},
+  "assessment": "Exam",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 11},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 11},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 8}
+  ]
+}

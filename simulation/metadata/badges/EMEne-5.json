@@ -1,0 +1,12 @@
+{
+  "type": "badge",
+  "specId": "EMEne-5",
+  "name": "Quiz 3",
+  "description": "Single-market behavior.",
+  "course": {"code": "EMEne", "name": "Economia e Mercados de Energia", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/EMEne411/2024-2025/1-semestre"},
+  "assessment": "Weekly quiz",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 5}
+  ]
+}

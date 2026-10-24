@@ -1,0 +1,23 @@
+{
+  "type": "node",
+  "name": "Smart Energy Architect",
+  "tier": "Architect",
+  "description": "Architect node. Requires Energy Infrastructure Specialist, and Energy Optimization Specialist or Grid Analytics Specialist.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 18, "name": "Energy Optimization Specialist", "tier": "Specialist"},
+      {"id": 20, "name": "Energy Infrastructure Specialist", "tier": "Specialist"}
+    ],
+    [
+      {"id": 19, "name": "Grid Analytics Specialist", "tier": "Specialist"},
+      {"id": 20, "name": "Energy Infrastructure Specialist", "tier": "Specialist"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 14},
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 15},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 7}
+  ],
+  "versionOf": 0
+}

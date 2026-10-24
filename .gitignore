@@ -1,0 +1,32 @@
+# Dependencies
+node_modules
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Environment files: only the .env.example files are tracked
+*.env
+.env.*
+!.env.example
+
+# Editors and system files
+.DS_Store
+.vscode
+.idea
+.eslintcache
+
+# Python
+__pycache__/
+.venv/
+
+# The backend installs its packages with npm
+backend/.yarn/
+backend/yarn.lock
+
+# Logs of the backend and the indexer started by yarn replay:full
+simulation/replay/logs/

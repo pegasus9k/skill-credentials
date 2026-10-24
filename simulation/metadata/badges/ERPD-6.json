@@ -1,0 +1,13 @@
+{
+  "type": "badge",
+  "specId": "ERPD-6",
+  "name": "Problem 3",
+  "description": "PV cell model, energy yield.",
+  "course": {"code": "ERPD", "name": "Energias Renovaveis e Producao Descentralizada", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ERPD236/2024-2025/2-semestre"},
+  "assessment": "Weekly problem",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2}
+  ]
+}

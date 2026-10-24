@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "AVE-3",
+  "name": "Synchronous Machine Lab",
+  "description": "Asynchronous and auxiliary startup methods, excitation current sweep for reactive power control, torque-speed characteristics under variable load.",
+  "course": {"code": "AVE", "name": "Acionamentos e Veiculos Electricos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/AVE/2022-2023/1-semestre"},
+  "assessment": "Report LAB3",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 4},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 2},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 1}
+  ]
+}

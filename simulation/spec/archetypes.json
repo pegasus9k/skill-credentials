@@ -1,0 +1,11 @@
+{
+  "source": "archetypes.md",
+  "studentsPerArchetype": 20,
+  "archetypes": [
+    {"id": "A1", "courses": {"P1": ["AAut", "OA", "CSCib"], "P2": ["AProf", "PIV"], "P3": ["PDS", "SCDTR"], "P4": ["PBDat", "SAut"]}, "targetNodes": [2, 3, 11, 14, 15, 24], "supply": {"CODE": 78, "DATA": 71, "ML": 64, "DL": 39, "OPT": 59, "CTR": 48, "SIG": 37, "REN": 2, "SIM": 22, "MATH": 120}},
+    {"id": "A2", "courses": {"P1": ["PCEEle", "EEner", "MEle"], "P2": ["ARed", "EMEne"], "P3": ["ADRI", "ERPD"], "P4": ["COSE", "MAPI"]}, "targetNodes": [4, 5, 9, 10, 18, 20, 22], "supply": {"CODE": 28, "DATA": 41, "ML": 5, "OPT": 24, "CTR": 47, "SIG": 15, "PWR": 97, "GRID": 76, "REN": 32, "THERMO": 26, "SIM": 10, "MATH": 139}},
+    {"id": "A3", "courses": {"P1": ["AAut", "MEle"], "P2": ["PIV", "Rob", "AVE"], "P3": ["PDS", "SCDTR"], "P4": ["PBDat", "SAut"]}, "targetNodes": [1, 6, 8, 12, 13, 21], "supply": {"CODE": 81, "DATA": 76, "ML": 48, "DL": 17, "OPT": 30, "CTR": 52, "SIG": 38, "PWR": 47, "GRID": 6, "REN": 7, "THERMO": 5, "SIM": 24, "MATH": 109}},
+    {"id": "A4", "courses": {"P1": ["OA", "CSCib", "MEle"], "P2": ["Rob", "AVE"], "P3": ["PDS", "SCDTR"], "P4": ["SAut", "MAPI"]}, "targetNodes": [1, 2, 4, 7, 16, 17, 23], "supply": {"CODE": 70, "DATA": 59, "ML": 22, "OPT": 35, "CTR": 102, "SIG": 48, "PWR": 47, "GRID": 6, "REN": 7, "THERMO": 5, "SIM": 31, "MATH": 108}},
+    {"id": "A5", "courses": {"P1": ["AAut", "OA", "PCEEle"], "P2": ["ARed", "EMEne"], "P3": ["ADRI", "ERPD"], "P4": ["PBDat", "COSE"]}, "targetNodes": [3, 5, 10, 19, 20, 22], "supply": {"CODE": 27, "DATA": 53, "ML": 43, "DL": 9, "OPT": 61, "CTR": 21, "SIG": 8, "PWR": 45, "GRID": 66, "REN": 29, "THERMO": 21, "SIM": 9, "MATH": 148}}
+  ]
+}

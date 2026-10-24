@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "SCDTR-1",
+  "name": "Luminaire Node",
+  "description": "Smart-luminaire node on RPi Pico: LED-driver and LDR circuits, identification of the LED-LDR plant with simulation-based validation, local PID with anti-windup, ADC acquisition, serial interface.",
+  "course": {"code": "SCDTR", "name": "Sistemas de Controlo Distribuido em Tempo Real", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/SCDTR3610/2025-2026/2-semestre"},
+  "assessment": "Stage 1, individual",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 7},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 6},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 3},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2}
+  ]
+}

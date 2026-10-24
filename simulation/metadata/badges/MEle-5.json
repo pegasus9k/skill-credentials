@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "MEle-5",
+  "name": "Theorist",
+  "description": "Magnetic-circuit and transformer analysis, equivalent circuits, torque and efficiency at operating points, iron-loss decomposition, induction and synchronous machine steady-state.",
+  "course": {"code": "MEle", "name": "Maquinas Electricas", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/MEle11/2024-2025/1-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 15},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 11},
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 4}
+  ]
+}

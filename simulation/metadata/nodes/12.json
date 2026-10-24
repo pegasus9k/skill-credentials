@@ -1,0 +1,19 @@
+{
+  "type": "node",
+  "name": "Perception Specialist",
+  "tier": "Specialist",
+  "description": "Specialist node. Requires Control and Signals Fundamentals and Sensor Data Fundamentals.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 1, "name": "Control and Signals Fundamentals", "tier": "Fundamentals"},
+      {"id": 6, "name": "Sensor Data Fundamentals", "tier": "Fundamentals"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 7},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 11},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 20}
+  ],
+  "versionOf": 0
+}

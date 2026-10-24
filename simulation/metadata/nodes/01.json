@@ -1,0 +1,13 @@
+{
+  "type": "node",
+  "name": "Control and Signals Fundamentals",
+  "tier": "Fundamentals",
+  "description": "Fundamentals node, with no prerequisites.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [],
+  "threshold": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 5},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 7}
+  ],
+  "versionOf": 0
+}

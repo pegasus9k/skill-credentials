@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "MAPI-2",
+  "name": "Alarm Automation Lab",
+  "description": "Intrusion-detection alarm: mode-based finite state machine, Structured Text subroutines, matrix keyboard scanning, simulated-hardware development, timed buzzer/LED logic.",
+  "course": {"code": "MAPI", "name": "Modelacao e Automacao de Processos Industriais", "ects": 6, "page": "https://web.tecnico.ulisboa.pt/~ist13495/courses/mapi24d/mapi2425.html"},
+  "assessment": "Lab 2 report",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 3},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 3},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 2},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 1}
+  ]
+}

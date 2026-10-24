@@ -1,0 +1,12 @@
+{
+  "source": "thirdPartyPosts.md",
+  "week": 30,
+  "thirdParties": ["TP1", "TP2", "TP3"],
+  "paths": [
+    {"id": 1, "thirdParty": "TP1", "title": "Smart energy systems", "nodes": [22]},
+    {"id": 2, "thirdParty": "TP2", "title": "Applied machine learning", "nodes": [24]}
+  ],
+  "projects": [
+    {"id": 1, "thirdParty": "TP3", "title": "Autonomous electric vehicle charging depot", "maxTeams": 1, "slots": [{"slot": 1, "role": "Data and learning", "nodes": [14, 15]}, {"slot": 2, "role": "Energy systems", "nodes": [18, 20]}, {"slot": 3, "role": "Vehicle perception", "nodes": [12, 13]}, {"slot": 4, "role": "Control and automation", "nodes": [16, 17]}]}
+  ]
+}

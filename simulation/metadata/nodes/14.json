@@ -1,0 +1,19 @@
+{
+  "type": "node",
+  "name": "Deep Learning Specialist",
+  "tier": "Specialist",
+  "description": "Specialist node. Requires Machine Learning Fundamentals and Deep Learning Fundamentals.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 2, "name": "Machine Learning Fundamentals", "tier": "Fundamentals"},
+      {"id": 11, "name": "Deep Learning Fundamentals", "tier": "Fundamentals"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "DL", "label": "Neural architectures, backpropagation, CNNs and RNNs", "points": 16},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 11},
+    {"skillType": "CODE", "label": "Code implementation", "points": 11}
+  ],
+  "versionOf": 0
+}

@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PIV-2",
+  "name": "Calibration",
+  "description": "Camera calibration, homography computation from image sequences, RANSAC outlier removal.",
+  "course": {"code": "PIV", "name": "Processamento de Imagem e Visao", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PIV/2025-2026/1-semestre"},
+  "assessment": "Labwork 2",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 3},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 1}
+  ]
+}

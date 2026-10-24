@@ -1,0 +1,19 @@
+{
+  "type": "node",
+  "name": "Grid Analytics Specialist",
+  "tier": "Specialist",
+  "description": "Specialist node. Requires Software and Data Fundamentals and Power Grid Fundamentals.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 3, "name": "Software and Data Fundamentals", "tier": "Fundamentals"},
+      {"id": 5, "name": "Power Grid Fundamentals", "tier": "Fundamentals"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 11},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 20},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 20}
+  ],
+  "versionOf": 0
+}

@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "Rob-2",
+  "name": "Gesture-Driven Actuator",
+  "description": "Human-augmentation device on Arduino: 9-DOF IMU signal processing for gesture recognition, stepper actuation via pulse timing, sensor-to-actuator architecture.",
+  "course": {"code": "Rob", "name": "Robotica", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/Rob112/2025-2026/1-semestre"},
+  "assessment": "Laboratory 2",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 7},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 6},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 4},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 4}
+  ]
+}

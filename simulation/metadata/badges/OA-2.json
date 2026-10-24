@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "OA-2",
+  "name": "Signal Fitting",
+  "description": "Piecewise-linear signal fitting, Levenberg-Marquardt implementation, analytical Jacobian.",
+  "course": {"code": "OA", "name": "Optimizacao e Algoritmos", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/OA222/2025-2026/1-semestre"},
+  "assessment": "Project, part 2",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 2},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 1},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 2}
+  ]
+}

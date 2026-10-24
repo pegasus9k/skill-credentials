@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "ADRI-4",
+  "name": "Project 2",
+  "description": "Applied grid analytics project (operational optimization or situational awareness context assumed), group presentation with implementation.",
+  "course": {"code": "ADRI", "name": "Analitica de Dados para Redes Inteligentes", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ADRI3610/2025-2026/2-semestre"},
+  "assessment": "Project 2, presentation",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 5},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 4},
+    {"skillType": "CODE", "label": "Code implementation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3}
+  ]
+}

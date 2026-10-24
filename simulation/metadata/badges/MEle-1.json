@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "MEle-1",
+  "name": "Efficiency and Thermal Lab",
+  "description": "Iron/copper losses as heat, internal temperature rise, insulation classes and thermal margins, temperature-dependent winding resistance, airgap effects.",
+  "course": {"code": "MEle", "name": "Maquinas Electricas", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/MEle11/2024-2025/1-semestre"},
+  "assessment": "T1 report, parts A and B",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "THERMO", "label": "Thermal cycles, steam and gas properties, heat transfer", "points": 3},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 3},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2}
+  ]
+}

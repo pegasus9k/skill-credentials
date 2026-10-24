@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PDS-2",
+  "name": "Spectral Analysis",
+  "description": "DFT magnitude/phase spectra, reconstruction from spectral peaks, voice signal FFT analysis, zero-padding effects.",
+  "course": {"code": "PDS", "name": "Processamento Digital de Sinais", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PDS36/2024-2025/2-semestre"},
+  "assessment": "Lab 2, code submission",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 4},
+    {"skillType": "CODE", "label": "Code implementation", "points": 2},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2}
+  ]
+}

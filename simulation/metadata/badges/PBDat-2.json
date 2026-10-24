@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PBDat-2",
+  "name": "Analysis Video",
+  "description": "Documented exploratory analysis, visualization of cluster structure and video segmentation, justification of modeling choices.",
+  "course": {"code": "PBDat", "name": "Processamento de Big Data", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PBDat/2021-2022/2-semestre"},
+  "assessment": "15-min video",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 5},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 4},
+    {"skillType": "CODE", "label": "Code implementation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 1}
+  ]
+}

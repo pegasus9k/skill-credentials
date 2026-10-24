@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "ARed-4",
+  "name": "Theorist",
+  "description": "Network analysis over power flow, faults and state estimation.",
+  "course": {"code": "ARed", "name": "Analise de Redes", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ARed112/2025-2026/1-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 12},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 8},
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 6},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 4}
+  ]
+}

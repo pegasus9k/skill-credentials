@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "AProf-3",
+  "name": "Theorist",
+  "description": "RNN hidden state computation, CNN forward passes, optimization derivations, Transformers, GANs, VAEs.",
+  "course": {"code": "AProf", "name": "Aprendizagem Profunda", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/AProf112/2025-2026/1-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 8},
+    {"skillType": "DL", "label": "Neural architectures, backpropagation, CNNs and RNNs", "points": 11},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 6},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 5}
+  ]
+}

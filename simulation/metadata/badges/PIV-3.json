@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PIV-3",
+  "name": "Vision Project",
+  "description": "Homography pipeline with RANSAC, RGB-D registration via Procrustes, plane fitting, segmentation.",
+  "course": {"code": "PIV", "name": "Processamento de Imagem e Visao", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PIV/2025-2026/1-semestre"},
+  "assessment": "Project parts I and II, with oral",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 2},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 2}
+  ]
+}

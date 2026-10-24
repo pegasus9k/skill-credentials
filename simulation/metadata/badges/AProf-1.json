@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "AProf-1",
+  "name": "Foundations",
+  "description": "MLP from scratch in NumPy, manual backpropagation, PyTorch reimplementation, linear algebra proofs.",
+  "course": {"code": "AProf", "name": "Aprendizagem Profunda", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/AProf112/2025-2026/1-semestre"},
+  "assessment": "Homework 1",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "CODE", "label": "Code implementation", "points": 3},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 4},
+    {"skillType": "DL", "label": "Neural architectures, backpropagation, CNNs and RNNs", "points": 5},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3}
+  ]
+}

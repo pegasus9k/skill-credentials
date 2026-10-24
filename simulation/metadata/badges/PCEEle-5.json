@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PCEEle-5",
+  "name": "Theorist",
+  "description": "Energy fundamentals, load diagrams and renewable sizing, over the full syllabus.",
+  "course": {"code": "PCEEle", "name": "Producao e Consumo de Energia Electrica", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PCEEle112/2025-2026/1-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "THERMO", "label": "Thermal cycles, steam and gas properties, heat transfer", "points": 3},
+    {"skillType": "REN", "label": "Wind, solar PV, storage and batteries", "points": 3},
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 3},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 3}
+  ]
+}

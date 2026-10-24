@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "MAPI-3",
+  "name": "Automation Quiz",
+  "description": "PLC architecture and I/O, Ladder/ST/GRAFCET semantics, discrete event system modeling basics.",
+  "course": {"code": "MAPI", "name": "Modelacao e Automacao de Processos Industriais", "ects": 6, "page": "https://web.tecnico.ulisboa.pt/~ist13495/courses/mapi24d/mapi2425.html"},
+  "assessment": "Quiz MAP30",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 4},
+    {"skillType": "CODE", "label": "Code implementation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2}
+  ]
+}

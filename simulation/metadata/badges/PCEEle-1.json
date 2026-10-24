@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "PCEEle-1",
+  "name": "Thermodynamics",
+  "description": "Steam tables, two-phase mixtures, thermodynamic processes, interpolation calculations.",
+  "course": {"code": "PCEEle", "name": "Producao e Consumo de Energia Electrica", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PCEEle112/2025-2026/1-semestre"},
+  "assessment": "MAP1",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "THERMO", "label": "Thermal cycles, steam and gas properties, heat transfer", "points": 7},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 2},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3}
+  ]
+}

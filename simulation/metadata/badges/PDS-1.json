@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PDS-1",
+  "name": "Signal Fundamentals",
+  "description": "Chirp sampling, spectrogram computation, downsampling/aliasing, anti-aliasing FIR filter design, audio data with sampling metadata.",
+  "course": {"code": "PDS", "name": "Processamento Digital de Sinais", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PDS36/2024-2025/2-semestre"},
+  "assessment": "Lab 1, code submission",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "SIG", "label": "Fourier and Z-transforms, filtering and estimation", "points": 4},
+    {"skillType": "CODE", "label": "Code implementation", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 1}
+  ]
+}

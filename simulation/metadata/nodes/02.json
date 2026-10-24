@@ -1,0 +1,13 @@
+{
+  "type": "node",
+  "name": "Machine Learning Fundamentals",
+  "tier": "Fundamentals",
+  "description": "Fundamentals node, with no prerequisites.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [],
+  "threshold": [
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 6},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 9}
+  ],
+  "versionOf": 0
+}

@@ -1,0 +1,19 @@
+{
+  "type": "node",
+  "name": "Engineering ML Specialist",
+  "tier": "Specialist",
+  "description": "Specialist node. Requires Machine Learning Fundamentals and Optimization Fundamentals.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 2, "name": "Machine Learning Fundamentals", "tier": "Fundamentals"},
+      {"id": 4, "name": "Optimization Fundamentals", "tier": "Fundamentals"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 9},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 6},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 20}
+  ],
+  "versionOf": 0
+}

@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "Rob-1",
+  "name": "Lane Assist Simulation",
+  "description": "Simulated Lane Tracking Assist system: kinematic car model, onboard-sensor models, road-lane simulation environment, line-detection quality, LTA controller design and integration.",
+  "course": {"code": "Rob", "name": "Robotica", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/Rob112/2025-2026/1-semestre"},
+  "assessment": "Laboratory 1",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 6},
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 6},
+    {"skillType": "CODE", "label": "Code implementation", "points": 5},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 4}
+  ]
+}

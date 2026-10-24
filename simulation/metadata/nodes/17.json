@@ -1,0 +1,19 @@
+{
+  "type": "node",
+  "name": "Control Systems Specialist",
+  "tier": "Specialist",
+  "description": "Specialist node. Requires Control and Signals Fundamentals and Simulation Fundamentals.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 1, "name": "Control and Signals Fundamentals", "tier": "Fundamentals"},
+      {"id": 7, "name": "Simulation Fundamentals", "tier": "Fundamentals"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 20},
+    {"skillType": "SIM", "label": "Numerical modeling and simulation", "points": 13},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 6}
+  ],
+  "versionOf": 0
+}

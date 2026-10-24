@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PBDat-4",
+  "name": "Theorist",
+  "description": "SVD and rank truncation, PPCA/factor analysis, GLRM losses, matrix sketching, k-means++/GMM/EM, stochastic gradient methods, imbalanced learning.",
+  "course": {"code": "PBDat", "name": "Processamento de Big Data", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PBDat/2021-2022/2-semestre"},
+  "assessment": "Final exam",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 7},
+    {"skillType": "ML", "label": "Supervised and unsupervised learning, model evaluation", "points": 5},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 5},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 4}
+  ]
+}

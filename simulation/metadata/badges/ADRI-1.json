@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "ADRI-1",
+  "name": "Grid Analytics",
+  "description": "Consumption data analysis for phase identification, network loss modeling, state estimation on grid measurements, Jupyter implementations with real grid data.",
+  "course": {"code": "ADRI", "name": "Analitica de Dados para Redes Inteligentes", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ADRI3610/2025-2026/2-semestre"},
+  "assessment": "MAP 1, problem reports 1 to 3",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 5},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 4},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3},
+    {"skillType": "CODE", "label": "Code implementation", "points": 3}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "badge",
+  "specId": "ERPD-11",
+  "name": "Quiz 6",
+  "description": "Small-hydro and combined heat and power.",
+  "course": {"code": "ERPD", "name": "Energias Renovaveis e Producao Descentralizada", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ERPD236/2024-2025/2-semestre"},
+  "assessment": "Weekly quiz",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "REN", "label": "Wind, solar PV, storage and batteries", "points": 2},
+    {"skillType": "THERMO", "label": "Thermal cycles, steam and gas properties, heat transfer", "points": 2},
+    {"skillType": "GRID", "label": "Network topology, power flow, protection and state estimation", "points": 1}
+  ]
+}

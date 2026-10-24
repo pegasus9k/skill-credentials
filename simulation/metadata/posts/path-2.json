@@ -1,0 +1,22 @@
+{
+  "type": "path",
+  "name": "Applied machine learning",
+  "thirdParty": "TP2",
+  "description": "The path checks the node marked 'checked'. Holding it implies every node marked 'all' and every node of one option.",
+  "nodes": {
+    "Architect": [
+      {"id": 24, "name": "Applied ML Architect", "required": "checked"}
+    ],
+    "Specialist": [
+      {"id": 15, "name": "Data Science Specialist", "required": "all"},
+      {"id": 14, "name": "Deep Learning Specialist", "required": "oneOf", "option": 1},
+      {"id": 16, "name": "Engineering ML Specialist", "required": "oneOf", "option": 2}
+    ],
+    "Fundamentals": [
+      {"id": 2, "name": "Machine Learning Fundamentals", "required": "all"},
+      {"id": 3, "name": "Software and Data Fundamentals", "required": "all"},
+      {"id": 11, "name": "Deep Learning Fundamentals", "required": "oneOf", "option": 1},
+      {"id": 4, "name": "Optimization Fundamentals", "required": "oneOf", "option": 2}
+    ]
+  }
+}

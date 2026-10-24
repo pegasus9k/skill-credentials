@@ -1,0 +1,23 @@
+{
+  "type": "node",
+  "name": "Autonomous Mobility Architect",
+  "tier": "Architect",
+  "description": "Architect node. Requires Electric Vehicle Specialist, and Perception Specialist or Deep Learning Specialist.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 12, "name": "Perception Specialist", "tier": "Specialist"},
+      {"id": 13, "name": "Electric Vehicle Specialist", "tier": "Specialist"}
+    ],
+    [
+      {"id": 13, "name": "Electric Vehicle Specialist", "tier": "Specialist"},
+      {"id": 14, "name": "Deep Learning Specialist", "tier": "Specialist"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 10},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 14},
+    {"skillType": "CODE", "label": "Code implementation", "points": 20}
+  ],
+  "versionOf": 0
+}

@@ -1,0 +1,22 @@
+{
+  "type": "node",
+  "name": "Intelligent Automation Architect",
+  "tier": "Architect",
+  "description": "Architect node. Requires Engineering ML Specialist, and Control Systems Specialist or Energy Optimization Specialist.",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "prerequisiteGroups": [
+    [
+      {"id": 16, "name": "Engineering ML Specialist", "tier": "Specialist"},
+      {"id": 17, "name": "Control Systems Specialist", "tier": "Specialist"}
+    ],
+    [
+      {"id": 16, "name": "Engineering ML Specialist", "tier": "Specialist"},
+      {"id": 18, "name": "Energy Optimization Specialist", "tier": "Specialist"}
+    ]
+  ],
+  "threshold": [
+    {"skillType": "CTR", "label": "Feedback systems, state space, stability and automation", "points": 20},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 8}
+  ],
+  "versionOf": 0
+}

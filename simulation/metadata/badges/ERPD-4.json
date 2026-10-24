@@ -1,0 +1,13 @@
+{
+  "type": "badge",
+  "specId": "ERPD-4",
+  "name": "Problem 2",
+  "description": "LCOE, annuity factor.",
+  "course": {"code": "ERPD", "name": "Energias Renovaveis e Producao Descentralizada", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/ERPD236/2024-2025/2-semestre"},
+  "assessment": "Weekly problem",
+  "season": {"number": 2, "academicYear": "2025/2026", "semester": "2nd semester"},
+  "skillPoints": [
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 3},
+    {"skillType": "REN", "label": "Wind, solar PV, storage and batteries", "points": 2}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "badge",
+  "specId": "PCEEle-2",
+  "name": "Rankine Cycle",
+  "description": "Rankine cycle optimization, thermal efficiency, steam mass flow balancing.",
+  "course": {"code": "PCEEle", "name": "Producao e Consumo de Energia Electrica", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/PCEEle112/2025-2026/1-semestre"},
+  "assessment": "MAP2",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "THERMO", "label": "Thermal cycles, steam and gas properties, heat transfer", "points": 4},
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 3},
+    {"skillType": "OPT", "label": "Convex optimization, algorithms and gradient methods", "points": 3},
+    {"skillType": "MATH", "label": "Linear algebra, probability and calculus", "points": 2}
+  ]
+}

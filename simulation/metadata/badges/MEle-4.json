@@ -1,0 +1,13 @@
+{
+  "type": "badge",
+  "specId": "MEle-4",
+  "name": "Synchronous Motor Lab",
+  "description": "Asynchronous starting of the synchronous motor, stator-resistance measurement, speed transients, torque-speed characteristic.",
+  "course": {"code": "MEle", "name": "Maquinas Electricas", "ects": 6, "page": "https://fenix.tecnico.ulisboa.pt/disciplinas/MEle11/2024-2025/1-semestre"},
+  "assessment": "T4 report",
+  "season": {"number": 1, "academicYear": "2025/2026", "semester": "1st semester"},
+  "skillPoints": [
+    {"skillType": "PWR", "label": "Power electronics, electrical machines and power generation", "points": 4},
+    {"skillType": "DATA", "label": "Data wrangling, statistics and visualization", "points": 3}
+  ]
+}
