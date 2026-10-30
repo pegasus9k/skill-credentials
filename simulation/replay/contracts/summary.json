@@ -1,0 +1,767 @@
+{
+  "mode": "contracts",
+  "provenance": {
+    "contractsCommit": "ac99029302a452edcc3166b966109383861c762c",
+    "solc": "0.8.30",
+    "optimizerRuns": 200,
+    "evmVersion": "cancun",
+    "openzeppelin": "5.6.1",
+    "hardhat": "2.28.6",
+    "chainId": 31337,
+    "simulatedYearSha256": "0c88b5fc231bf680f09bda32fd67a78b40b99dc9a404e17e654e3f618ae9baca",
+    "metadataIndexSha256": "0bdb33ffd469d55572200f54f2f176b50ab725b8774f5271d3b607fe13cadf13"
+  },
+  "transactions": {
+    "deployScripts": 7,
+    "cohortSetup": 224,
+    "year": 4347,
+    "refused": 0
+  },
+  "deployment": [
+    {
+      "contract": "IdentityRegistry",
+      "gas": 938931,
+      "runtimeBytes": 3347,
+      "marginBytes": 21229
+    },
+    {
+      "contract": "SkillBadge",
+      "gas": 2244923,
+      "runtimeBytes": 9969,
+      "marginBytes": 14607
+    },
+    {
+      "contract": "SkillGraph",
+      "gas": 3145686,
+      "runtimeBytes": 14126,
+      "marginBytes": 10450
+    },
+    {
+      "contract": "SkillPath",
+      "gas": 2995686,
+      "runtimeBytes": 13300,
+      "marginBytes": 11276
+    }
+  ],
+  "setup": {
+    "deployScripts": {
+      "transactions": 7,
+      "gas": 9450323,
+      "byPayer": [
+        {
+          "payer": "deployer",
+          "transactions": 5,
+          "gas": 9349504
+        },
+        {
+          "payer": "administrator",
+          "transactions": 2,
+          "gas": 100819
+        }
+      ],
+      "byFunction": [
+        {
+          "function": "IdentityRegistry.deploy",
+          "count": 1,
+          "min": 938931,
+          "mean": 938931,
+          "max": 938931,
+          "total": 938931
+        },
+        {
+          "function": "SkillBadge.deploy",
+          "count": 1,
+          "min": 2244923,
+          "mean": 2244923,
+          "max": 2244923,
+          "total": 2244923
+        },
+        {
+          "function": "SkillGraph.deploy",
+          "count": 1,
+          "min": 3145686,
+          "mean": 3145686,
+          "max": 3145686,
+          "total": 3145686
+        },
+        {
+          "function": "SkillPath.deploy",
+          "count": 1,
+          "min": 2995686,
+          "mean": 2995686,
+          "max": 2995686,
+          "total": 2995686
+        },
+        {
+          "function": "IdentityRegistry.anchorRegistrar",
+          "count": 1,
+          "min": 50399,
+          "mean": 50399,
+          "max": 50399,
+          "total": 50399
+        },
+        {
+          "function": "IdentityRegistry.anchorOracle",
+          "count": 1,
+          "min": 50420,
+          "mean": 50420,
+          "max": 50420,
+          "total": 50420
+        },
+        {
+          "function": "IdentityRegistry.renounceAdmin",
+          "count": 1,
+          "min": 24278,
+          "mean": 24278,
+          "max": 24278,
+          "total": 24278
+        }
+      ]
+    },
+    "cohortSetup": {
+      "transactions": 224,
+      "gas": 45874536,
+      "byPayer": [
+        {
+          "payer": "administrator",
+          "transactions": 124,
+          "gas": 40830420
+        },
+        {
+          "payer": "registrar",
+          "transactions": 100,
+          "gas": 5044116
+        }
+      ],
+      "byFunction": [
+        {
+          "function": "IdentityRegistry.anchorThirdParty",
+          "count": 3,
+          "min": 50353,
+          "mean": 50353,
+          "max": 50353,
+          "total": 151059
+        },
+        {
+          "function": "IdentityRegistry.anchorStudent",
+          "count": 100,
+          "min": 50430,
+          "mean": 50441,
+          "max": 50442,
+          "total": 5044116
+        },
+        {
+          "function": "SkillBadge.defineBadge",
+          "count": 97,
+          "min": 220441,
+          "mean": 331563,
+          "max": 362272,
+          "total": 32161645
+        },
+        {
+          "function": "SkillGraph.defineNode",
+          "count": 24,
+          "min": 268145,
+          "mean": 354905,
+          "max": 492100,
+          "total": 8517716
+        }
+      ]
+    }
+  },
+  "yearGas": [
+    {
+      "operation": "mintBadge",
+      "count": 3703,
+      "min": 86348,
+      "mean": 86382,
+      "max": 86384,
+      "total": 319871216
+    },
+    {
+      "operation": "freezeSeason (SkillBadge)",
+      "count": 2,
+      "min": 51169,
+      "mean": 51169,
+      "max": 51169,
+      "total": 102338
+    },
+    {
+      "operation": "freezeSeason (SkillGraph)",
+      "count": 2,
+      "min": 51125,
+      "mean": 51125,
+      "max": 51125,
+      "total": 102250
+    },
+    {
+      "operation": "allocateBadges",
+      "count": 545,
+      "min": 178723,
+      "mean": 375934,
+      "max": 750716,
+      "total": 204884084
+    },
+    {
+      "operation": "definePath",
+      "count": 2,
+      "min": 155037,
+      "mean": 155037,
+      "max": 155037,
+      "total": 310074
+    },
+    {
+      "operation": "defineProject",
+      "count": 1,
+      "min": 457507,
+      "mean": 457507,
+      "max": 457507,
+      "total": 457507
+    },
+    {
+      "operation": "approvePath",
+      "count": 2,
+      "min": 33758,
+      "mean": 33758,
+      "max": 33758,
+      "total": 67516
+    },
+    {
+      "operation": "approveProject",
+      "count": 1,
+      "min": 33822,
+      "mean": 33822,
+      "max": 33822,
+      "total": 33822
+    },
+    {
+      "operation": "applyToPath",
+      "count": 37,
+      "min": 72008,
+      "mean": 72008,
+      "max": 72008,
+      "total": 2664296
+    },
+    {
+      "operation": "startTeam",
+      "count": 15,
+      "min": 159314,
+      "mean": 159314,
+      "max": 159314,
+      "total": 2389710
+    },
+    {
+      "operation": "joinTeam",
+      "count": 28,
+      "min": 116001,
+      "mean": 116001,
+      "max": 116001,
+      "total": 3248028
+    },
+    {
+      "operation": "joinTeam (forms the team)",
+      "count": 8,
+      "min": 117856,
+      "mean": 117856,
+      "max": 117856,
+      "total": 942848
+    },
+    {
+      "operation": "selectTeam",
+      "count": 1,
+      "min": 44301,
+      "mean": 44301,
+      "max": 44301,
+      "total": 44301
+    }
+  ],
+  "allocateBadgesByTier": [
+    {
+      "tier": "Fundamentals",
+      "count": 326,
+      "min": 178723,
+      "mean": 316544,
+      "max": 579882,
+      "total": 103193468
+    },
+    {
+      "tier": "Specialist",
+      "count": 158,
+      "min": 252446,
+      "mean": 471516,
+      "max": 750716,
+      "total": 74499491
+    },
+    {
+      "tier": "Architect",
+      "count": 61,
+      "min": 309763,
+      "mean": 445756,
+      "max": 629090,
+      "total": 27191125
+    }
+  ],
+  "allocateBadgesByBadgeCount": [
+    {
+      "badges": 1,
+      "count": 22,
+      "min": 178723,
+      "mean": 178723,
+      "max": 178723,
+      "total": 3931906
+    },
+    {
+      "badges": 2,
+      "count": 108,
+      "min": 236031,
+      "mean": 239071,
+      "max": 252446,
+      "total": 25819648
+    },
+    {
+      "badges": 3,
+      "count": 85,
+      "min": 293340,
+      "mean": 295782,
+      "max": 325006,
+      "total": 25141483
+    },
+    {
+      "badges": 4,
+      "count": 122,
+      "min": 350648,
+      "mean": 362391,
+      "max": 385823,
+      "total": 44211731
+    },
+    {
+      "badges": 5,
+      "count": 89,
+      "min": 407957,
+      "mean": 431487,
+      "max": 455921,
+      "total": 38402332
+    },
+    {
+      "badges": 6,
+      "count": 59,
+      "min": 465265,
+      "mean": 492421,
+      "max": 516738,
+      "total": 29052865
+    },
+    {
+      "badges": 7,
+      "count": 15,
+      "min": 522574,
+      "mean": 556081,
+      "max": 568273,
+      "total": 8341219
+    },
+    {
+      "badges": 8,
+      "count": 23,
+      "min": 579882,
+      "mean": 611970,
+      "max": 629090,
+      "total": 14075318
+    },
+    {
+      "badges": 9,
+      "count": 10,
+      "min": 689899,
+      "mean": 689899,
+      "max": 689899,
+      "total": 6898990
+    },
+    {
+      "badges": 10,
+      "count": 12,
+      "min": 750716,
+      "mean": 750716,
+      "max": 750716,
+      "total": 9008592
+    }
+  ],
+  "studentYearGas": {
+    "byGroup": [
+      {
+        "group": "reference",
+        "students": 5,
+        "student": {
+          "min": 2166122,
+          "mean": 2484583,
+          "max": 2773047
+        },
+        "oracleMints": {
+          "min": 3023008,
+          "mean": 3748907,
+          "max": 4664664
+        },
+        "both": {
+          "min": 5189130,
+          "mean": 6233491,
+          "max": 7437711
+        }
+      },
+      {
+        "group": "regular-15-30",
+        "students": 30,
+        "student": {
+          "min": 1247082,
+          "mean": 2379912,
+          "max": 2979586
+        },
+        "oracleMints": {
+          "min": 2764240,
+          "mean": 3567592,
+          "max": 4664640
+        },
+        "both": {
+          "min": 4585231,
+          "mean": 5947504,
+          "max": 7644226
+        }
+      },
+      {
+        "group": "regular-30",
+        "students": 35,
+        "student": {
+          "min": 1337395,
+          "mean": 2553259,
+          "max": 2965553
+        },
+        "oracleMints": {
+          "min": 2591472,
+          "mean": 3563859,
+          "max": 4664652
+        },
+        "both": {
+          "min": 4692104,
+          "mean": 6117118,
+          "max": 7515528
+        }
+      },
+      {
+        "group": "skips",
+        "students": 15,
+        "student": {
+          "min": 1058742,
+          "mean": 1758950,
+          "max": 2737508
+        },
+        "oracleMints": {
+          "min": 1727404,
+          "mean": 2631752,
+          "max": 3714428
+        },
+        "both": {
+          "min": 2917178,
+          "mean": 4390702,
+          "max": 5963719
+        }
+      },
+      {
+        "group": "dropout",
+        "students": 15,
+        "student": {
+          "min": 293340,
+          "mean": 970691,
+          "max": 1597731
+        },
+        "oracleMints": {
+          "min": 1295736,
+          "mean": 1992505,
+          "max": 2591484
+        },
+        "both": {
+          "min": 2175755,
+          "mean": 2963197,
+          "max": 4102795
+        }
+      }
+    ],
+    "byArchetype": [
+      {
+        "archetype": "A1",
+        "students": 20,
+        "student": {
+          "min": 937327,
+          "mean": 2168659,
+          "max": 2680477
+        },
+        "oracleMints": {
+          "min": 1468504,
+          "mean": 2574165,
+          "max": 3023416
+        },
+        "both": {
+          "min": 2405831,
+          "mean": 4742823,
+          "max": 5531943
+        }
+      },
+      {
+        "archetype": "A2",
+        "students": 20,
+        "student": {
+          "min": 1230667,
+          "mean": 2360853,
+          "max": 2979586
+        },
+        "oracleMints": {
+          "min": 2245924,
+          "mean": 3943330,
+          "max": 4664640
+        },
+        "both": {
+          "min": 3476592,
+          "mean": 6304183,
+          "max": 7644226
+        }
+      },
+      {
+        "archetype": "A3",
+        "students": 20,
+        "student": {
+          "min": 781817,
+          "mean": 1996421,
+          "max": 2496113
+        },
+        "oracleMints": {
+          "min": 1727404,
+          "mean": 2781507,
+          "max": 3282568
+        },
+        "both": {
+          "min": 2682205,
+          "mean": 4777928,
+          "max": 5664064
+        }
+      },
+      {
+        "archetype": "A4",
+        "students": 20,
+        "student": {
+          "min": 880019,
+          "mean": 1989969,
+          "max": 2794816
+        },
+        "oracleMints": {
+          "min": 1295736,
+          "mean": 2686471,
+          "max": 3109764
+        },
+        "both": {
+          "min": 2175755,
+          "mean": 4676440,
+          "max": 5818196
+        }
+      },
+      {
+        "archetype": "A5",
+        "students": 20,
+        "student": {
+          "min": 293340,
+          "mean": 2190548,
+          "max": 2848563
+        },
+        "oracleMints": {
+          "min": 2418740,
+          "mean": 4008088,
+          "max": 4664664
+        },
+        "both": {
+          "min": 2712080,
+          "mean": 6198636,
+          "max": 7513191
+        }
+      }
+    ],
+    "all": {
+      "students": 100,
+      "student": {
+        "min": 293340,
+        "mean": 2141290,
+        "max": 2979586
+      },
+      "oracleMints": {
+        "min": 1295736,
+        "mean": 3198712,
+        "max": 4664664
+      },
+      "both": {
+        "min": 2175755,
+        "mean": 5340002,
+        "max": 7644226
+      }
+    }
+  },
+  "cohortYearGas": {
+    "year": {
+      "transactions": 4347,
+      "gas": 535117990
+    },
+    "yearByPayer": [
+      {
+        "payer": "oracle",
+        "transactions": 3703,
+        "gas": 319871216
+      },
+      {
+        "payer": "students",
+        "transactions": 633,
+        "gas": 214128966
+      },
+      {
+        "payer": "administrator",
+        "transactions": 7,
+        "gas": 305926
+      },
+      {
+        "payer": "third parties",
+        "transactions": 4,
+        "gas": 811882
+      }
+    ]
+  },
+  "outcomes": {
+    "byArchetype": [
+      {
+        "archetype": "A1",
+        "students": 20,
+        "meanBadges": 29.8,
+        "meanNodes": 5.5,
+        "allTargetNodes": 15,
+        "applications": 14,
+        "teamSlots": 15
+      },
+      {
+        "archetype": "A2",
+        "students": 20,
+        "meanBadges": 45.7,
+        "meanNodes": 6.2,
+        "allTargetNodes": 13,
+        "applications": 12,
+        "teamSlots": 13
+      },
+      {
+        "archetype": "A3",
+        "students": 20,
+        "meanBadges": 32.2,
+        "meanNodes": 5.3,
+        "allTargetNodes": 12,
+        "applications": 0,
+        "teamSlots": 15
+      },
+      {
+        "archetype": "A4",
+        "students": 20,
+        "meanBadges": 31.1,
+        "meanNodes": 5.6,
+        "allTargetNodes": 9,
+        "applications": 0,
+        "teamSlots": 8
+      },
+      {
+        "archetype": "A5",
+        "students": 20,
+        "meanBadges": 46.4,
+        "meanNodes": 4.8,
+        "allTargetNodes": 12,
+        "applications": 11,
+        "teamSlots": 0
+      }
+    ],
+    "byGroup": [
+      {
+        "group": "reference",
+        "students": 5,
+        "meanBadges": 43.4,
+        "meanNodes": 6.4,
+        "allTargetNodes": 5,
+        "applications": 0,
+        "teamSlots": 0
+      },
+      {
+        "group": "regular-15-30",
+        "students": 30,
+        "meanBadges": 41.3,
+        "meanNodes": 5.9,
+        "allTargetNodes": 22,
+        "applications": 17,
+        "teamSlots": 17
+      },
+      {
+        "group": "regular-30",
+        "students": 35,
+        "meanBadges": 41.3,
+        "meanNodes": 6.2,
+        "allTargetNodes": 32,
+        "applications": 19,
+        "teamSlots": 28
+      },
+      {
+        "group": "skips",
+        "students": 15,
+        "meanBadges": 30.5,
+        "meanNodes": 4.8,
+        "allTargetNodes": 2,
+        "applications": 1,
+        "teamSlots": 6
+      },
+      {
+        "group": "dropout",
+        "students": 15,
+        "meanBadges": 23.1,
+        "meanNodes": 3.1,
+        "allTargetNodes": 0,
+        "applications": 0,
+        "teamSlots": 0
+      }
+    ]
+  },
+  "reads": {
+    "all": {
+      "nodes": 545,
+      "min": 6,
+      "mean": 14.56,
+      "max": 35,
+      "calls": 7933
+    },
+    "byTier": [
+      {
+        "tier": "Fundamentals",
+        "nodes": 326,
+        "min": 6,
+        "mean": 10.81,
+        "max": 20,
+        "calls": 3524
+      },
+      {
+        "tier": "Specialist",
+        "nodes": 158,
+        "min": 8,
+        "mean": 20.46,
+        "max": 35,
+        "calls": 3233
+      },
+      {
+        "tier": "Architect",
+        "nodes": 61,
+        "min": 10,
+        "mean": 19.28,
+        "max": 29,
+        "calls": 1176
+      }
+    ],
+    "allThresholdsMet": true,
+    "spotCheck": {
+      "student": "S027",
+      "node": 22,
+      "calls": 23
+    }
+  },
+  "refused": [],
+  "mismatches": []
+}
