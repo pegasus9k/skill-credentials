@@ -1,6 +1,6 @@
 """Counts used in 5.5 and Chapter 6 that are not in summary.md.
 
-Run from simulation/catalogue:
+Run from simulation/scripts:
     python3 check_discussion_counts.py
 
 Course grade rule (5.5): weighted mean of the assessment grades, a skipped

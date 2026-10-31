@@ -37,7 +37,7 @@ const YEAR_SHA256 = "0c88b5fc231bf680f09bda32fd67a78b40b99dc9a404e17e654e3f618ae
 const SIZE_LIMIT = 24576; // EIP-170 limit on runtime bytecode
 const PROJECT = 1; // the year has one project
 
-// Totals and spot checks from the brief, computed outside the repo.
+// Totals and spot checks, computed independently of the replay.
 const TOTALS = { badges: 3703, nodes: 545, applications: 37, teamMembers: 51, teams: 15, yearTransactions: 4347 };
 const SPOT = {
   student: "S027",
@@ -803,7 +803,7 @@ async function main() {
   for (const [k, v] of Object.entries(expectedTotals)) {
     const onLedger = (ledgerTotals as Record<string, number>)[k];
     const given = (TOTALS as Record<string, number>)[k];
-    if (onLedger !== v || v !== given) mismatches.push(`total ${k}: ledger ${onLedger}, expected ${v}, brief ${given}`);
+    if (onLedger !== v || v !== given) mismatches.push(`total ${k}: ledger ${onLedger}, expected ${v}, script ${given}`);
   }
   if (ledgerTotals.mints !== TOTALS.badges)
     mismatches.push(`${ledgerTotals.mints} grade commitments checked, not ${TOTALS.badges}`);

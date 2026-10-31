@@ -11,7 +11,7 @@ import os
 import sys
 
 SIM = sys.argv[1]
-sys.path.insert(0, os.path.join(SIM, "catalogue"))
+sys.path.insert(0, os.path.join(SIM, "scripts"))
 from allocate import allocate  # noqa: E402
 
 J = lambda p: json.load(open(os.path.join(SIM, p), encoding="utf-8"))

@@ -114,9 +114,9 @@ Both modes, per student, against `expected`:
 - applications: `getPathApplication` non-zero exactly for the expected paths
 - team: `teamOf(1, student)`, the slot in `getProjectTeam`, and whether the team is formed and selected
 
-Totals: 3,703 badges, 545 nodes, 37 applications, 51 students in 15 teams, each equal on the ledger, in `expected` and in the brief. Paths 1 and 2 are open, project 1 has started, and of the 15 teams only team 1 is selected.
+Totals: 3,703 badges, 545 nodes, 37 applications, 51 students in 15 teams, each equal on the ledger and in `expected`. Paths 1 and 2 are open, project 1 has started, and of the 15 teams only team 1 is selected.
 
-Spot checks, computed outside the repo: `gradeCommitments(S027, 91)` is `0x9c78aff5d1b4cc2fd77e400f256a94201dd8dcbee35a71e6b80530db54692eeb` (COSE-2, grade 13, week 28), and `getNodeBadges(22, S027)` is `[20, 41, 56, 75, 79, 91]`.
+Spot checks, computed independently of the replay: `gradeCommitments(S027, 91)` is `0x9c78aff5d1b4cc2fd77e400f256a94201dd8dcbee35a71e6b80530db54692eeb` (COSE-2, grade 13, week 28), and `getNodeBadges(22, S027)` is `[20, 41, 56, 75, 79, 91]`.
 
 The full mode adds, in this order:
 
@@ -229,7 +229,7 @@ The full mode's summary adds the stack: the documents pinned and read back, the 
 
 The behavior groups come from `class` and `allocationWeeks`: `reference`, `regular-15-30`, `regular-30`, `skips`, `dropout`. The student pays its allocations, applications and team slots. The oracle pays the mints, the administrator the freezes and approvals, the third parties their posts and the selection.
 
-The files hold no dates, paths or machine data, so two runs on two machines give the same bytes. The provenance records the last commit that touched `packages/hardhat/contracts`, the compiler and library versions, the chain ID and the SHA-256 of the inputs. There are no fees: they come later, from these gas figures and a dated gas price.
+The files hold no dates, paths or machine data, so two runs on two machines give the same bytes. The provenance records the last commit that touched `packages/hardhat/contracts`, the compiler and library versions, the chain ID and the SHA-256 of the inputs. Fees are not computed here. The thesis derives them from these gas figures and a dated gas price.
 
 ## Reproducibility and the console
 

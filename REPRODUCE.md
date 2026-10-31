@@ -199,6 +199,6 @@ ethers.sha256(ethers.toUtf8Bytes(String(g.grade) + g.badge_salt)) === (await bad
 ## Optional checks of the inputs
 
 - The simulated year file: `sha256sum simulation/spec/simulatedYear.json` gives `0c88b5fc231bf680f09bda32fd67a78b40b99dc9a404e17e654e3f618ae9baca`, the hash the replay checks.
-- The year against the rules of the contracts, without a chain: `python3 simulation/catalogue/check_year.py` prints `CHECKS: all passed`. It needs Python 3.8 or later, NumPy, and SciPy 1.9 or later.
-- The metadata documents: `python3 simulation/catalogue/build_metadata.py` writes them again from the specification files, then `git status --short simulation/metadata` is empty. Standard library only.
+- The year against the rules of the contracts, without a chain: `python3 simulation/scripts/check_year.py` prints `CHECKS: all passed`. It needs Python 3.8 or later, NumPy, and SciPy 1.9 or later.
+- The metadata documents: `python3 simulation/scripts/build_metadata.py` writes them again from the specification files, then `git status --short simulation/metadata` is empty. Standard library only.
 - The content identifiers: with Kubo (IPFS), `ipfs add --only-hash --cid-version=1 --raw-leaves` on any file of `simulation/metadata/` gives its `cid` in `simulation/metadata/index.json`.

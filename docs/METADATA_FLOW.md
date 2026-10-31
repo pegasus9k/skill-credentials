@@ -9,7 +9,7 @@ The badge is COSE-2, Dispatch and Scheduling, earned by student S027 (archetype 
 | Piece | Job |
 |---|---|
 | `simulation/spec/*.json` | The inputs. `courses.json` (badges), `graph.json` (nodes), `thirdPartyPosts.json` (posts), `skillTypes.json` (code and label of each skill type). |
-| `simulation/catalogue/build_metadata.py` | Writes one document per badge, node and post from those JSON files. Standard library only, deterministic. |
+| `simulation/scripts/build_metadata.py` | Writes one document per badge, node and post from those JSON files. Standard library only, deterministic. |
 | `simulation/metadata/` | The documents: `badges/`, `nodes/`, `posts/`. Each file is the exact bytes IPFS stores. |
 | `simulation/metadata/index.json` | One line per document, in the order of definition on the ledger: kind, ID, file, SHA-256, CID. The replay reads only this file to know which hash goes with which token. |
 | Ledger | Holds only the 32-byte SHA-256 of each document (`metadataCID`). `uri()` rebuilds `ipfs://f01551220<hex>` from it. |
@@ -82,6 +82,6 @@ ipfs cid format -b base16 bafkreidftpld2belccgndzupico3arciwirr7vz7mzwigkw4oosiq
 ## Rules that keep the flow true
 
 - The bytes are never re-serialized. The backend pins the bytes it receives and hashes those same bytes. `GET /metadata/:id`, with the hash on the ledger or the CID, returns the bytes IPFS holds, and the indexer hashes them again before it uses them.
-- IPFS is the only store of documents. There is no copy in Postgres (`metadata_payloads` is dropped). The ledger view keeps only the fields it displays.
+- IPFS is the only store of documents. There is no copy in Postgres. The ledger view keeps only the fields it displays.
 - A document never holds its own token ID: the contract assigns it after the document is pinned.
 - The ledger is the source of truth. A document repeats node IDs only for its readers.

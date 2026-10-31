@@ -1,6 +1,6 @@
 # FenixEdu login by hand
 
-`yarn fenix:login` runs the registration of thesis 4.5.2 once with a real IST account, outside the replay. The replay writes its student records directly, so this is where the FenixEdu login itself is exercised. The tool, `backend/tools/fenix-login.js`, plays the client app. It is kept for the client work after Chapter 5.
+`yarn fenix:login` runs the registration of thesis 4.5.2 once with a real IST account, outside the replay. The replay writes its student records directly, so this is where the FenixEdu login itself is exercised. The tool, `backend/tools/fenix-login.js`, plays the client app.
 
 ## What it shows
 

@@ -24,10 +24,10 @@ The threshold amounts of the competency graph are not written by hand. `threshol
 
 `simulatedYear.json` was generated with Python 3.13.16 and SciPy 1.18.1. SHA-256 `0c88b5fc231bf680f09bda32fd67a78b40b99dc9a404e17e654e3f618ae9baca`. Running `generate_year.py` again rewrites the file, and its `meta` line records the Python and SciPy versions, so another machine gives another hash. The check to run is `check_year.py`, which replays the file with the checks the contracts make and prints a summary (Python 3.8 or later, NumPy, SciPy 1.9 or later):
 
-    python3 catalogue/check_year.py
+    python3 simulation/scripts/check_year.py
 
 ## Metadata documents
 
 `build_metadata.py` reads `courses.json`, `graph.json`, `thirdPartyPosts.json` and `skillTypes.json`, and writes one JSON document per badge, node and post to `metadata/`, and `metadata/index.json` with the SHA-256 and the IPFS CID of each file. Every field comes from the specification files. The replay puts the SHA-256 of each file on the ledger as the metadata hash of its badge, node or post, and in the full mode pins the file on IPFS. Standard library only.
 
-    python3 catalogue/build_metadata.py
+    python3 simulation/scripts/build_metadata.py

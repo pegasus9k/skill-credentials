@@ -14,7 +14,7 @@ Each assessment a student passes gives a badge, with skill points of up to four 
 | `DB` | The database schema and its setup script |
 | `simulation/spec` | The inputs of the simulated year, as JSON files. The scripts and the replay read only these |
 | `simulation/spec-docs` | The same inputs written as documents, for reading, and a guide to the inputs (`README.md`) |
-| `simulation/catalogue` | The Python scripts: thresholds, allocation, generation and check of the year, metadata documents, and the checks and analyses of Chapter 5 |
+| `simulation/scripts` | The Python scripts: thresholds, allocation, generation and check of the year, metadata documents, and the checks and analyses of Chapter 5 |
 | `simulation/metadata` | The 124 metadata documents of the badges, nodes and posts |
 | `simulation/replay` | The outputs of both replays |
 | `simulation/analysis` | The results of the margin sensitivity analysis, and the Polygon PoS gas prices behind the fees |
@@ -27,7 +27,7 @@ Each assessment a student passes gives a badge, with skill points of up to four 
 
 - Node.js 20.18.3 or later and Yarn: `yarn install`, then `yarn test` (38 tests) and `yarn replay`, about a minute.
 - With PostgreSQL 16 and Kubo 0.29.0 as well: `yarn chain` in one terminal, then `yarn replay:full` in another, about 10 minutes.
-- Python 3.8 or later with NumPy and SciPy 1.9 or later, only to rerun the scripts of `simulation/catalogue`.
+- Python 3.8 or later with NumPy and SciPy 1.9 or later, only to rerun the scripts of `simulation/scripts`.
 - The client: `yarn chain`, `yarn deploy`, the backend (`npm start` in `backend`), then `yarn start`, at http://localhost:3000.
 
 ## Licence
