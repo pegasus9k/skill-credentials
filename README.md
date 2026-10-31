@@ -32,4 +32,4 @@ Each assessment a student passes gives a badge, with skill points of up to four 
 
 ## Licence
 
-The files that come from the Scaffold-ETH 2 template keep its MIT licence, in `LICENCE-scaffold-eth`. The rest is not licensed for reuse.
+The contracts, in `packages/hardhat/contracts`, are under the MIT licence, as their first line says. The files that come from the Scaffold-ETH 2 template keep its MIT licence, in `docs/scaffold-eth-licence.txt`. The rest is not licensed for reuse, but you may run it to reproduce the results of the thesis.
